@@ -1,3 +1,7 @@
+# Custom
+package-lock.json
+keys.env
+
 # Logs
 logs
 *.log
