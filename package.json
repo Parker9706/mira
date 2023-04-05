@@ -1,0 +1,33 @@
+{
+  "name": "mira",
+  "version": "1.0.0",
+  "description": "An AI SlackBot Assistant, powered by OpenAI",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/tst.js",
+    "dev": "nodemon src/tst.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Parker9706/mira.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Parker9706/mira/issues"
+  },
+  "homepage": "https://github.com/Parker9706/mira#readme",
+  "devDependencies": {
+    "eslint": "^8.37.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.17.1",
+    "node-fetch": "^3.3.1",
+    "nodemon": "^2.0.22",
+    "openai": "^3.2.1"
+  }
+}
